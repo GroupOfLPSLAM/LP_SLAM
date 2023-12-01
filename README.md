@@ -51,6 +51,9 @@ The link of paddleOCR in github:  https://github.com/PaddlePaddle/PaddleOCR. We 
 # 3.Building LP-SLAM
 
 1. Clone the repository
+```
+https://github.com/GroupOfLPSLAM/LP_SLAM.git
+```
 
 2. build thirdparty
 We edit the script 'build.sh' to build the Thirdparty libraries. Please make sure you have installed all required dependencies.Execute:
