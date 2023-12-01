@@ -1,0 +1,5 @@
+let's try,[[ KFC]], give me the most likely answer
+it should be [[1]] because kfc is a food shop,lets try another[[请切拍打 ]]
+it should be [[0]] because it means don't beat.lets try another  [[EXIT]]
+it should be [[0]].let's try again, [[\"HOSpital\"]] give me the most likely answer
+attention, your output should only be consist of [[ , 0 , 1, ]],other words are forbidden

@@ -1,0 +1,4 @@
+let's try  the list is [[TsinghuaUniversity Microsoft exit]], my question is where can i study
+the answer shoud be [[{{TsinghuaUniversity}}]].lets try another the list is [[toilet 一点点奶茶]], my question is i want to go to toilet and then have something to drink.
+the answer should be [[{{toilet}},{{一点点奶茶}}]]. lets try another the list is [[{{kfc}},{{1,1,1}}, {{一点点奶茶}},{{2,2,2}}]], my question is im in {{0,0,0}}, where is the cloest place i can eat or drink something?
+the answer should be [[{{kfc}}]].
