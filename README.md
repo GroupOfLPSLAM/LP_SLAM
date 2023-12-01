@@ -1,9 +1,9 @@
-#LP-SLAM
+# LP-SLAM
 
-#1. INTRODUCTION
+# 1. INTRODUCTION
 LP-SLAM is a language-perceptive RGB-D SLAM based on ORB-SLAM3. So make sure ORB-SLAM3 works before you try LP-SLAM. 
 
-#2. Prerequisites
+# 2. Prerequisites
 Ubuntu 20.04 is recommanded. A real-time OCR thread will be running during the SLAM, so there should be a graphic card in your computer. We run the LP-SLAM on Nvidia GeForce RTX3080ti.
 
 
@@ -44,9 +44,9 @@ the  version depends on your graphic card.
 ## paddlepaddle & paddleOCR
 Required to recognize words in scene. 
 
-The link of paddlepaddle in github: https://github.com/PaddlePaddle/Paddle. We use release version 2.4.1 of paddlepaddle. Remember to turn -DWITH_GPU=ON if you want to run real-time LP-SLAM.
+The link of paddlepaddle in github: https://github.com/PaddlePaddle/Paddle. Build it. We use release version 2.4.1 of paddlepaddle. Remember to turn -DWITH_GPU=ON if you want to run real-time LP-SLAM.
 
-The link of paddleOCR in github:  https://github.com/PaddlePaddle/PaddleOCR. We use 2.6 version.
+The link of paddleOCR in github:  https://github.com/PaddlePaddle/PaddleOCR. We use 2.6 version. Don't build it. Your should copy PaddleOCR/deploy/cpp_infer into LP-SLAM/paddle_ocr. We will build paddleocr with lp_slam together. 
 
 # 3.Building LP-SLAM
 

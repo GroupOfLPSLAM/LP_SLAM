@@ -3,6 +3,8 @@
 
 # Unignore all with extensions
 !*.*
+
+# Unignore all dirs
 !*/
 
 CMakeLists.txt.user
