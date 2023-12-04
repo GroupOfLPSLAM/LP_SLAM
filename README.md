@@ -69,10 +69,14 @@ There are several places asking you to replace your lib path in CMakeLists.txt. 
 In lp_slam/lp/include/chat.h, you should fill in your openai api key in #define API_KEY=""
 
 # 4. Running LP-SLAM with dataset
+dataset is upload in https://cloud.tsinghua.edu.cn/d/ba561413bf1747fc8b42/
+you should download from the link and unzip 2023-10-17-21-13-17.zip
+edit airsim_rec.txt and delete its first line.
+
 LP_SLAM only works in RGBD mode.
 ```
 cd LP_SLAM
-./Examples/RGB-D/rgbd_tum Vocabulary/ORBvoc.txt Examples/RGB-D/***.yaml pathofyourdataset pathofyourassociate.txt
+./Examples/RGB-D/rgbd_tum Vocabulary/ORBvoc.txt Examples/RGB-D/***.yaml pathofyourdataset/image pathofyourdataset/airsim_rec.txt
 ```
 
 
